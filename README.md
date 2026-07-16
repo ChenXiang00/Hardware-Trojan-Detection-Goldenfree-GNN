@@ -13,4 +13,12 @@ We recommend using Python 3.10+ for this project. You can install all the requir
 
 ```bash
 pip install -r requirements.txt
+```
+All experiments were conducted and verified under the following environment:
+**OS**: Ubuntu 22.04.5 LTS (64-bit)
+**Hardware**: Intel i7-13700 CPU | NVIDIA GeForce RTX 2080 Ti GPU (22 GB)
+**CUDA**: 12.4
+
+###Setup
+
 
