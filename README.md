@@ -8,7 +8,7 @@ To address these critical security challenges, this repository implements the of
 
 Our framework adopts a decoupled learning strategy that divides the pipeline into a two-stage process. In the first stage, contrastive pre-training utilizes Contrastive Learning (CL) to extract highly discriminative and robust graph representations from the RTL-converted Data Flow Graphs (DFGs). In the second stage, a separate downstream classifier is trained on these pre-trained representations to precisely distinguish between Trojan-free and Trojan-infected circuits without modifying the frozen encoder.
 
-###Environment & Installation
+### Environment & Installation
 We recommend using Python 3.10+ for this project. You can install all the required packages directly using the provided `requirements.txt` file:
 
 ```bash
