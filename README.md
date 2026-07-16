@@ -19,7 +19,7 @@ All experiments were conducted and verified under the following environment:
 **Hardware**: Intel i7-13700 CPU | NVIDIA GeForce RTX 2080 Ti GPU (22 GB)
 **CUDA**: 12.4
 
-###Quick Start
+### Quick Start
 
 Before running the code, please ensure that your pre-trained encoder model file (e.g., .pth) is already placed inside the runs directory at the root of this repository, and then execute the following command to start training the downstream classifier:
 
