@@ -20,6 +20,15 @@ All experiments were conducted and verified under the following environment:
 **CUDA**: 12.4
 
 ### Quick Start
+Before training the downstream classifier, first the GNN encoder using contrastive learning (CL). During this stage, augmented views of each circuit Data Flow Graph (DFG) are generated and processed by a shared GNN encoder to learn robust and discriminative graph representations. The resulting encoder is then used as the initialization for downstream Hardware Trojan classification.
+
+For demonstration and quick evaluation, we also provide a pre-trained encoder checkpoint in this repository, allowing users to directly proceed to downstream classifier training without repeating this stage.
+
+```bash
+python 00_EncoderTraining.py
+```
+
+
 
 Before running the code, please ensure that your pre-trained encoder model file (e.g., .pth) is already placed inside the runs directory at the root of this repository, and then execute the following command to start training the downstream classifier:
 
