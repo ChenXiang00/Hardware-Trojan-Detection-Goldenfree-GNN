@@ -19,6 +19,8 @@ All experiments were conducted and verified under the following environment:
 **Hardware**: Intel i7-13700 CPU | NVIDIA GeForce RTX 2080 Ti GPU (22 GB)
 **CUDA**: 12.4
 
+For demonstration and quick testing, we provide a small sample dataset in the DataSet.zip file. Users can extract this file to access example circuit data and use it to verify the training and inference workflow.
+
 ### Quick Start
 Before training the downstream classifier, first the GNN encoder using contrastive learning (CL). During this stage, augmented views of each circuit Data Flow Graph (DFG) are generated and processed by a shared GNN encoder to learn robust and discriminative graph representations. The resulting encoder is then used as the initialization for downstream Hardware Trojan classification.
 
