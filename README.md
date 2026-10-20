@@ -12,7 +12,7 @@ Our framework adopts a decoupled learning strategy that divides the pipeline int
 If our work helps your research, please cite the relevent paper(s):
 **TVLSI 2026**
 
-```
+```bibtex
 @ARTICLE{zuxiang2026TVLSI,
   author={Chen, Tsu-Hsiang and Sun, Chi-Chia},
   journal={IEEE Transactions on Very Large Scale Integration (VLSI) Systems}, 
