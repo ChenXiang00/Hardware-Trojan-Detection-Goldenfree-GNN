@@ -21,7 +21,15 @@ If our work helps your research, please cite the relevent paper(s):
   pages={1-4},
   doi={10.1109/TVLSI.2026.3731402}}
 ```
+---
+This repository hosts the official implementation of our Data-Flow Graph (DFG)-based Contrastive Grapg Neural Network framework for functional hardware Trojan detection in RTL designs without requiring a golden reference.
 
+| Version | Paper | Venue | Status |
+|---------|-------|-------|--------|
+| **v1.0** | Functional Hardware Trojan Detection in RTL Designs Using Data-Flow Graph-Based Contrastive Graph Neural Networks | IEEE TVLSI 2026 | ✅ Published |
+
+*Tsu-Hsiang Chen, Chi-Chia Sun*
+---
 ### Environment & Installation
 We recommend using Python 3.10+ for this project. You can install all the required packages directly using the provided `requirements.txt` file:
 
