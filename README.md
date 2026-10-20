@@ -28,7 +28,9 @@ This repository hosts the official implementation of our Data-Flow Graph (DFG)-b
 |---------|-------|-------|--------|
 | **v1.0** | Functional Hardware Trojan Detection in RTL Designs Using Data-Flow Graph-Based Contrastive Graph Neural Networks | IEEE TVLSI 2026 | ✅ Published |
 
-*Tsu-Hsiang Chen, Chi-Chia Sun*
+Tsu-Hsiang Chen, Chi-Chia Sun
+
+
 ---
 ### Environment & Installation
 We recommend using Python 3.10+ for this project. You can install all the required packages directly using the provided `requirements.txt` file:
