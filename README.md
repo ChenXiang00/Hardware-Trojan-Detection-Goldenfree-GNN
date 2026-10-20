@@ -26,7 +26,7 @@ This repository hosts the official implementation of our Data-Flow Graph (DFG)-b
 
 | Version | Paper | Venue | Status |
 |---------|-------|-------|--------|
-| **v1.0** | Functional Hardware Trojan Detection in RTL Designs Using Data-Flow Graph-Based Contrastive Graph Neural Networks | IEEE TVLSI 2026 | ✅ Published |
+| **v1.0** | [Functional Hardware Trojan Detection in RTL Designs Using Data-Flow Graph-Based Contrastive Graph Neural Networks](https://github.com/USERNAME/REPO/releases/tag/v1.0) | IEEE TVLSI 2026 | ✅ Published |
 
 Tsu-Hsiang Chen, Chi-Chia Sun
 
